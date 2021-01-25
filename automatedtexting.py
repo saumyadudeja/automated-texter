@@ -24,13 +24,11 @@ GENERIC_TEXT_QUOTES = [
 "Twenty years from now you’ll be more disappointed by the things you did not do than the ones you did.",
 "You can’t go back and change the beginning, but you can start where you are and change the ending."
 ]
-#'Hiket':'+4917674726252',
-#'Keyur':'+4917643634973'"""
-twilio_phone = '+14253210082'
-my_names_dict={'Saumya':'+4915215424368',
-                'Aman':'+12039369613',
-                'Dad':'+919971822900',
-                'Rishu':'+4915216088805'
+
+twilio_phone = 'xxxxxxxxxxxx'
+my_names_dict={'Sam':'+xxxxxxxxxxxx',
+                'Amanda':'+xxxxxxxxx',
+                'Dad':'+xxxxxxxxxxx'
                 }
 quote = "Opportunity is missed by most people because it is dressed in overalls and looks like work."
 account_sid = 'AC30b81c2358657d2bc5f3f5f1f5e52688'
@@ -45,20 +43,4 @@ for key,value in  my_names_dict.items():
                      body="Good morning "+key+"! Here's your quote for today: " +quote
                  )
 
-#schedule.every(5).minutes.do(send_message,quote)
-#schedule.every(30).minutes.do(send_message,GENERIC_TEXT_QUOTES)
 print('done!')
-
-# while 1:
-#     schedule.run_pending()
-#     time.sleep(1)
-#"Saumya, you created this!",
-# "Hey Saumya! Just a reminder that you shine like a star",
-# "You are so cool Saumya, that you can win a game of chess by just looking at the board",
-# "All our dreams can come true Saumya, if we have the courage to pursue them.",
-# "The best time to plant a tree was 20 years ago. The second best time is now,Saumya.",
-# "Dear Saumya, If people are doubting how far you can go, go so far that you can’t hear them anymore.",
-# "It’s no use going back to yesterday, because you was a different person then, Saumya",
-# "If we have the attitude that it’s going to be a great day it usually is, Saumya",
-# "Magic is believing in yourself. If you can make that happen, you can make anything happen, Saumya.",
-# "Just remember that I love you, Saumya!",
