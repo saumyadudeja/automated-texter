@@ -31,8 +31,8 @@ my_names_dict={'Sam':'+xxxxxxxxxxxx',
                 'Dad':'+xxxxxxxxxxx'
                 }
 quote = "Opportunity is missed by most people because it is dressed in overalls and looks like work."
-account_sid = 'AC30b81c2358657d2bc5f3f5f1f5e52688'
-auth_token = 'd6983b7cadbd82163c5124009da7c255'
+account_sid = 'yyyyyyyyyyyyyyyyyyyyyyyyy'
+auth_token = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 client = Client(account_sid, auth_token)
 # def send_message_to_me(quote):
 #quote = GENERIC_TEXT_QUOTES[random.randint(0,len(GENERIC_TEXT_QUOTES)-1)]
